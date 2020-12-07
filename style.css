@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header {
+    background-color: #f5c8a4;
+    text-align: center;
+    font-weight: 100;
+    padding: 50px;
+    margin: 25px;
+    letter-spacing: 2px;
+}
+
+hr {
+    background-color: black;
+    width: 360px;
+    height: 3px;
+    border: 0px;
+}
+
+main h3 {
+    background-color: #f5c8a4;
+    text-align: center;
+    font-weight: 100;
+    padding: 10px;
+}
+
+main {
+    margin: 25px;
+}
+
+aside {
+    background-color:lightgrey;
+    padding: 20px 15px;
+    margin: 25px 25px 25px 0px;
+}
+
+aside h3 {
+    background-color: white;
+    text-align: center;
+    font-weight: 100;
+    padding: 10px;
+}
+
+.date {
+    display: flex;
+    justify-content: space-between;
+}
